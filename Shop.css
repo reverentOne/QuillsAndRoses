@@ -1,8 +1,99 @@
+ .u-section-1 {
+  background-image: url("images/IMG-0501.jpg");
+  background-position: 50% 79.35%;
+}
+
 .u-section-1 .u-sheet-1 {
-  min-height: 404px;
+  min-height: 562px;
 }
 
 .u-section-1 .u-text-1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 407px 263px 60px auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 463px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 355px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 201px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 266px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 151px;
+    font-size: 3.75rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 167px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 95px;
+    font-size: 3rem;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 2084px;
+}
+
+.u-section-2 .u-text-1 {
   font-size: 1.875rem;
-  margin: 60px 0;
+  margin: 60px 0 0;
+}.u-section-3 .u-sheet-1 {
+  min-height: 437px;
+}
+
+.u-section-3 .u-image-1 {
+  object-position: 50% 75.42%;
+  width: 356px;
+  height: 356px;
+  background-image: url("images/IMG-0496.jpg");
+  background-position: 50% 50%;
+  margin: 31px auto 50px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 527px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 404px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 303px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 191px;
+  }
+
+  .u-section-3 .u-image-1 {
+    width: 340px;
+    height: 340px;
+  }
 }
